@@ -36,7 +36,7 @@ public class jNLP {
                     if(stringT.nextToken().equals(spamK)) {
                         spamIndicator += 1;
                     } else {
-                        spamIndicator = 0;
+                        spamIndicator += 0;
                     }
                 }
             }
