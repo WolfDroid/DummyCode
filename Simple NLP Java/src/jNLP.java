@@ -40,7 +40,7 @@ public class jNLP {
                     }
                 }
             }
-            if (spamIndicator >= 3 ){
+            if ( spamIndicator >= 3 ){
                 System.out.println("This is a Spam!");
             } else {
                 System.out.println("It's safe not a Spam!");
